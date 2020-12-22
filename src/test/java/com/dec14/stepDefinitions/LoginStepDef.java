@@ -6,14 +6,6 @@ import com.dec14.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 public class LoginStepDef {
 
@@ -39,11 +31,6 @@ public class LoginStepDef {
 
         loginPage.passworInputBox.sendKeys("password");
         System.out.println("In @Then tag");
-    }
-
-    @Test
-    public void waitPractice() {
-        System.out.println("in @Test from test ng");
     }
 
 
