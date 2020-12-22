@@ -18,6 +18,6 @@ public class Hooks {
 
     @After
     public void beforeEachTest() {
-        Driver.getDriver().quit();
+        Driver.closeDriver();
     }
 }
