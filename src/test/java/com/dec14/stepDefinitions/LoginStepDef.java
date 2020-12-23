@@ -42,7 +42,7 @@ public class LoginStepDef {
 
         String actualResult = homePage.getUserFullName();
         String expectedResult = string;
-        Assert.assertEquals("User full name not same as expected!!!",actualResult,expectedResult);
+        Assert.assertEquals("User full name not same as expected!!!",expectedResult,actualResult);
         System.out.println("In @Then tag");
     }
 
