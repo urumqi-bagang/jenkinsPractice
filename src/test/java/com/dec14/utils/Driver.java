@@ -49,7 +49,7 @@ public class Driver {
                     try {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
-                        desiredCapabilities.setPlatform(Platform.MAC);
+                        desiredCapabilities.setPlatform(Platform.WIN8);
                         URL url = new URL("http://192.168.29.198:4444/wd/hub");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
                     } catch (MalformedURLException e) {
