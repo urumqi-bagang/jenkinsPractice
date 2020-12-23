@@ -38,7 +38,7 @@ public class Driver {
                     try {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("firefox");
-                        desiredCapabilities.setPlatform(Platform.MAC);
+                        desiredCapabilities.setPlatform(Platform.LINUX);
                         URL url = new URL("http://192.168.29.198:4444/wd/hub");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
                     } catch (MalformedURLException e) {
