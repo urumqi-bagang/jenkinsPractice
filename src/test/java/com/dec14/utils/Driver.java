@@ -39,7 +39,7 @@ public class Driver {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("firefox");
                         desiredCapabilities.setPlatform(Platform.LINUX);
-                        URL url = new URL("http://192.168.29.198:4444/wd/hub");
+                        URL url = new URL("http://192.168.29.149:4444/wd/hub");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
@@ -50,7 +50,7 @@ public class Driver {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("chrome");
                         desiredCapabilities.setPlatform(Platform.WIN8);
-                        URL url = new URL("http://192.168.29.198:4444/wd/hub");
+                        URL url = new URL("http://192.168.29.149:4444/wd/hub");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
@@ -61,7 +61,7 @@ public class Driver {
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
                         desiredCapabilities.setBrowserName("safari");
                         desiredCapabilities.setPlatform(Platform.MAC);
-                        URL url = new URL("http://192.168.29.198:4444/wd/hub");
+                        URL url = new URL("http://192.168.29.149:4444/wd/hub");
                         driver = new RemoteWebDriver(url, desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
