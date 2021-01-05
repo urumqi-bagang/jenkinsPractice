@@ -1,6 +1,6 @@
 Feature: log in with different username and password
 
-  @smoke
+  @smoke @Dawud
   Scenario Outline: User should be able to login with different valid credential
     Given User is on login page
     When user provide valid "<userName>" and "<password>"
