@@ -1,6 +1,5 @@
 Feature: test all submodule under fleet  shows correct title
 
-  @smoke
   Scenario Outline:
     Given User is on login page
     When user provide valid "<userName>" and "<password>"
